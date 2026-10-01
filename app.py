@@ -6,7 +6,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # গুগল এআই চাবি সেটআপ করা (উদ্ধৃতি চিহ্নের ভেতর আপনার আসল চাবিটি বসাবেন)
-GOOGLE_API_KEY ="AQ.Ab8RN6LNzbP0t2KMH1OE9rys0BJq-6IZfVybofaOhZoZrWENcw"
+GOOGLE_API_KEY ="AIzaSyB4dAUhxEao415YdVg4l4WYJ21hQ9V-tyk"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ফেসবুক টোকেন সেটআপ
